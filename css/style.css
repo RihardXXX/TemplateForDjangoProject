@@ -1,7 +1,46 @@
 @import "fonts.css";
 
+body {
+    background-color: #191919;
+}
+
 ul, li {
     display: block;
     margin: 0;
     padding: 0;
+    border-radius: 10px;
+}
+
+.authorization {
+    padding: 10px;
+    background: #393939;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-bar {
+    background: #393939;
+    border-radius: 10px;
+    color: #ff9900;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu__item {
+    margin-left: 50px;
+}
+
+.menu__item a {
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+    color: #ff9900;
+}
+
+.menu__item a:hover {
+    ftext-decoration: none;
+    color: rgb(255, 255, 255);
 }
